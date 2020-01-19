@@ -3,19 +3,19 @@ Użycie:
 Dla slidera z przeźroczem:
 `<?php echo do_shortcode("[sliderWithoutBG]"); ?>`
 Dla slidera bez: 
-<code><?php echo do_shortcode("[sliderWithBG]"); ?></code>
+`<?php echo do_shortcode("[sliderWithBG]"); ?>`
 
 w sliderWithBG.php możemy zmienić sposób wyświetlania naszego sleira bez przeźrocza.
 dla sliderWithoutBG.php slider z przeźroczem.
 
 Wywoływanie poszczególnych rzeczy:
-<code><?php echo the_post_thumbnail_url(); ?></code - zwraca dodaną miniaturkę, z domyślnej opcji dodawania obrazków. 
-<code><?php echo get_post_meta($post->ID, 'URL Oferty', true); ?></code - zwraca URL oferty.
-<code><?php echo get_post_meta($post->ID, 'Tekst', true); ?></code - zwraca tekst
-<code><?php echo get_post_meta($post->ID, 'URL obrazka przezroczystego', true); ?></code - z URL obrazka przezroczystego
+`<?php echo the_post_thumbnail_url(); ?>` - zwraca dodaną miniaturkę, z domyślnej opcji dodawania obrazków. 
+`<?php echo get_post_meta($post->ID, 'URL Oferty', true); ?>` - zwraca URL oferty.
+`<?php echo get_post_meta($post->ID, 'Tekst', true); ?>` - zwraca tekst
+`<?php echo get_post_meta($post->ID, 'URL obrazka przezroczystego', true); ?>` - z URL obrazka przezroczystego
 
-Przykładowy JS:
-<code>
+Przykładowy JS z https://www.w3schools.com/howto/howto_js_slideshow.asp 
+`
 <script>
     var slideIndex = 1;
     showSlides(slideIndex);
@@ -46,13 +46,10 @@ Przykładowy JS:
         dots[slideIndex-1].className += " active";
     }
 </script>
-</code>
-
+`
 
 Przykładowy css z https://www.w3schools.com/howto/howto_js_slideshow.asp 
-<code>
-
-
+`
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -127,5 +124,5 @@ Przykładowy css z https://www.w3schools.com/howto/howto_js_slideshow.asp
 	from {opacity: .4}
 	to {opacity: 1}
 }
-</code>
+`
 
