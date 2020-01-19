@@ -1,9 +1,9 @@
 Mały plugin pod slider.
 Użycie:
 Dla slidera z przeźroczem:
-<code><?php echo do_shortcode("[sliderWithoutBG]"); ?></code>
+`<?php echo do_shortcode("[sliderWithoutBG]"); ?>`
 Dla slidera bez: 
-<code><?php echo do_shortcode("[sliderWithBG]"); ?></code
+<code><?php echo do_shortcode("[sliderWithBG]"); ?></code>
 
 w sliderWithBG.php możemy zmienić sposób wyświetlania naszego sleira bez przeźrocza.
 dla sliderWithoutBG.php slider z przeźroczem.
